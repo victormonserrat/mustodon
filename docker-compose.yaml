@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  eventstore:
+    image: eventstore/eventstore:latest
+    ports:
+      - 1113:1113
+      - 2113:2113
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+
+  mongo-express:
+    image: mongo-express
+    ports:
+      - 8081:8081
