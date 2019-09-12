@@ -5,6 +5,5 @@ export interface Todos {
   save(todo: Todo): Promise<void>;
   /** @throws NotFoundTodo */
   withId(id: TodoId): Promise<Todo>;
-  /** @throws NotFoundTodo */
   remove(todo: Todo): Promise<void>;
 }

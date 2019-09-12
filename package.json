@@ -1,7 +1,7 @@
 {
-  "name": "mustodon",
+  "name": "@victormonserrat/mustodon",
   "version": "0.0.1",
-  "description": "",
+  "description": "A to do list example DDD + CQRS + ES application.",
   "author": "Victor Monserrat",
   "license": "MIT",
   "scripts": {
